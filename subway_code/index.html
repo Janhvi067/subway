@@ -4,47 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUBWAY-Our ingredients,Your masterpiece</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- SUB slide -->
-    <div class="item" id="page1">
-        <div id="subtext">
-            <img class="logo" src="/images/subwaylogo1.png" alt="subway logo">
-            <h1>FRESHNESS SERVED DAILY</h1>
-            <h2>Craft your perfect sub from 3750+ options!</h2>
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- SUB slide -->
+            <div class="item swiper-slide" id="page1">
+                <div id="subtext">
+                    <img class="logo" id="subwaylogo" src="/images/subwaylogo1.png" alt="subway logo">
+                    <h1 id="h1subtext">FRESHNESS SERVED DAILY</h1>
+                    <h2 id="h2subtext">Craft your perfect sub from 3750+ options!</h2>
+                </div>
+                <img id="sub" src="/images/sub.png" alt="sub sandwich">
+                <div id="veggies">
+                    <img id="capsicum1" src="/images/capsicum1.png" alt="capsicum1">
+                    <img id="capsicum2" src="/images/capsicum2.png" alt="capsicum2">
+                    <img id="onion1" src="/images/onion1.png" alt="onion1">
+                    <img id="onion2" src="/images/onion2.png" alt="onion2">
+                    <img id="onion3" src="/images/onion3.png" alt="onion3">
+                    <img id="onion4" src="/images/onion4.png" alt="onion4">
+                    <img id="tomato1" src="/images/tomato1.png" alt="tomato1">
+                    <img id="tomato2" src="/images/tomato2.png" alt="tomato2">
+                    <img id="capsicum" src="/images/capsicum2.png" alt="capsicum1">
+                    <img id="tomato" src="/images/tomato2.png" alt="tomato2">
+                    <img id="onion" src="/images/onion4.png" alt="onion4">
+                    <img id="onionring" src="/images/onion4.png" alt="onion4">
+
+                </div>
+                <div id="arrows">
+                    <img id="arrowtopright" src="/images/arrow1.svg" alt="arrow">
+                    <img id="arrowbottomleft" src="/images/arrow3.svg" alt="arrow">
+                    <img id="arrowbottomright" src="/images/arrow4.svg" alt="arrow">
+                    <img id="arrowtopleft" src="/images/arrow2.svg" alt="arrow">
+                </div>
+                <img id="handcrafted" src="/images/Handcrafted.svg" alt="handcrafted">
+                <img id="farmfresh" src="/images/Farm-fresh.svg" alt="farmfresh">
+                <img id="nourishing" src="/images/Nourishing.svg" alt="nourishing">
+                <img id="nutritious" src="/images/Nutritious.svg" alt="nutritious">
+            </div> 
+            <!-- wrap slide -->
+            <div class="item swiper-slide" id="page2">
+                <div id="wraptext">
+                <img class="logo" src="/images/subwaylogo1.png" alt="subway logo">
+                <h1>FRESHNESS SERVED DAILY</h1>
+                <h2>Nutritious ,flavourful ,veggie-packed delight!</h2>
+                </div>
+                <img id="wraps" src="/images/wraps.png" alt="wraps">
+                <div id="wrapveggies">
+                    <img id="chicken" src="/images/chicken.png" alt="chicken">
+                    <img id="wrapcapsicum" src="/images/capsicum2.png" alt="capsicum2">
+                    <img id="wraponion1" src="/images/onion1.png" alt="onion1">
+                    <img id="wraponion4" src="/images/onion4.png" alt="onion4">
+                    <img id="tomatoleft" src="/images/tomato2.png" alt="tomato2">
+                    <img id="tomatoright" src="/images/tomato2.png" alt="tomato2">
+                    <img id="cabbagetop" src="/images/cabbage.png" alt="cabbage">
+                    <img id="cabbageright" src="/images/cabbage.png" alt="cabbage">
+                    <img id="cabbageleft" src="/images/cabbage.png" alt="cabbage">
+                </div>
+                <div id="wraparrows">
+                    <img id="wraparrowtopright" src="/images/arrow1.svg" alt="arrow">
+                    <img id="wraparrowbottomleft" src="/images/arrow3.svg" alt="arrow">
+                    <img id="wraparrowbottomright" src="/images/arrow4.svg" alt="arrow">
+                    <img id="wraparrowtopleft" src="/images/arrow2.svg" alt="arrow">
+                </div>
+                <img id="wholegrains" src="/images/Whole grains.svg" alt="wholegrains">
+                <img id="filling" src="/images/Filling.svg" alt="filling">
+                <img id="customizable" src="/images/Customizable.svg" alt="customizable">
+                <img id="leanproteins" src="/images/Lean Proteins.svg" alt="leanproteins">
+            </div>
+            <!-- cookie slide -->
+            <div class="item swiper-slide" id="page3">
+                <div id="cookietext">
+                    <img class="logo" src="/images/subwaylogo1.png" alt="subway logo">
+                    <h1>FRESHNESS SERVED DAILY</h1>
+                    <h2>Perfectly baked delights to sweeten moments</h2>
+                </div>
+                <img id="cookies" src="/images/cookie3.png" alt="cookies">
+                <div id="cookieitems">
+                    <img id="cookietop" src="/images/cookie1.png" alt="cookie">
+                    <img id="cookieright" src="/images/cookie2.png" alt="cookie2">
+                    <img id="chocochiptopright" src="/images/chocochip1.svg" alt="chocochip1">
+                    <img id="chocochipright" src="/images/chocochip2.svg" alt="chocochip2">
+                    <img id="chocochipbottomleft" src="/images/chocochip3.svg" alt="chocochip3">
+                    <img id="chocochipleft" src="/images/chocochip4.svg" alt="chocochip4">
+                </div>
+                <div id="cookiearrows">
+                    <img id="cookiearrowtopright" src="/images/arrow1.svg" alt="arrow">
+                    <img id="cookiearrowbottomleft" src="/images/arrow3.svg" alt="arrow">
+                    <img id="cookiearrowbottomright" src="/images/arrow4.svg" alt="arrow">
+                    <img id="cookiearrowtopleft" src="/images/arrow2.svg" alt="arrow">
+                </div>
+                <img id="buttery" src="/images/Buttery.svg" alt="buttery">
+                <img id="freshlybaked" src="/images/Freshly Baked.svg" alt="freshlybaked">
+                <img id="delicious" src="/images/Delicious.svg" alt="delicious">
+                <img id="qualityingrediants" src="/images/Quality Ingrediants.svg" alt="qualityingrediants">
+            </div>
         </div>
-        <img id="sub" src="/images/sub.png" alt="sub sandwich">
-        <div id="veggies">
-            <img id="capsicum1" src="/images/capsicum1.png" alt="capsicum1">
-            <img id="capsicum2" src="/images/capsicum2.png" alt="capsicum2">
-            <img id="onion1" src="/images/onion1.png" alt="onion1">
-            <img id="onion2" src="/images/onion2.png" alt="onion2">
-            <img id="onion3" src="/images/onion3.png" alt="onion3">
-            <img id="onion4" src="/images/onion4.png" alt="onion4">
-            <img id="tomato1" src="/images/tomato1.png" alt="tomato1">
-            <img id="tomato2" src="/images/tomato2.png" alt="tomato2">
-            <img id="capsicum" src="/images/capsicum2.png" alt="capsicum1">
-            <img id="tomato" src="/images/tomato2.png" alt="tomato2">
-            <img id="onion" src="/images/onion4.png" alt="onion4">
-            <img id="onionring" src="/images/onion4.png" alt="onion4">
-    
-        </div>
-        <div id="arrows">
-            <img id="arrowtopright" src="/images/arrow1.svg" alt="arrow">
-            <img id="arrowbottomleft" src="/images/arrow3.svg" alt="arrow">
-            <img id="arrowbottomright" src="/images/arrow4.svg" alt="arrow">
-            <img id="arrowtopleft" src="/images/arrow2.svg" alt="arrow">
-        </div>
-        <img id="handcrafted" src="/images/Handcrafted.svg" alt="handcrafted">
-        <img id="farmfresh" src="/images/Farm-fresh.svg" alt="farmfresh">
-        <img id="nourishing" src="/images/Nourishing.svg" alt="nourishing">
-        <img id="nutritious" src="/images/Nutritious.svg" alt="nutritious">
-    </div> 
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+    </section>
     <div id="section2">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, provident.
         <a href="brown.html">brown</a>
     </div>
-    </main>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    
+    <!-- Adding parallax effect -->
+    <script type="text/javascript">
+        let 
+    </script>
 </body>
 </html>
