@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: nunito, sans-serif;
+}
+
+html, 
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #FFF0E0;
+}
+
+.nunito-signature {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.signature {
+    position: absolute;
+    padding: 6%;
+    color: #FFC700;
+}
+
+.signature1 {
+    padding-left: 20%;
+}
+
+.signature2 {
+    padding-left: 16%;
+}
+
+.upper_rectangle {
+    position: relative;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+#green_upper, 
+#yellow_upper {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#yellow_upper {
+    margin-left: 30%;
+    padding-top:8%;
+}
+
+#submarine_sandwich {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    cursor: pointer;
+}
+
+
