@@ -1,0 +1,141 @@
+body {  
+    background-color:#FFF0E0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+.beyond{
+    display: flex;
+    font-size:xx-large;
+    background-image: url("img/Rectangle 108.svg");
+}
+
+.background_rectangle {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:#FFF0E0 ;
+    background-image: url("img/Rectangle 109.png");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: 90% 100%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.tabs.left {
+    align-items: flex-start;
+}
+
+.tabs.right {
+    align-items: flex-end;
+}
+
+.tab {
+    background-color: #0B8F2C;
+    padding: 22px 55px;
+    margin: 10px 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+}
+
+.additional-tab {
+    position: absolute;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tab:hover {
+    background-color:#0B8F2C;
+    transform: scale(1.05);
+}
+
+.image-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-image:url("img/wrapp 4.svg");
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 30%;
+    height: 50%;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    transition: opacity 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .tabs {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+    }
+
+    .tabs.left, .tabs.right {
+        align-items: center;
+        margin: 0;
+    }
+
+    .tab {
+        margin: 5px;
+        padding: 10px;
+        min-width: auto;
+    }
+
+    .image-container {
+        margin: 20px 0;
+    }
+
+    .additional-tab {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        margin: 20px 0;
+    }
+}
+
